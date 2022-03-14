@@ -1,7 +1,9 @@
 """
 File: khansole_academy.py
 -------------------------
-Add your comments here.
+This is a educational program for math practice.
+The algorithm prints substractions and additions between two random integers of two digits.
+It'll generates the operations in a loop until the user reaches 3 correct responses in a row and with a congratulations message the program ends.
 """
 
 import random
@@ -9,9 +11,10 @@ import random
 NUM_IN_ROW = 3
 
 """
+TO DO
 1 - Generate two random int of 2 digits OK
 2 - Print the question OK
-3 - Generate the loop in row
+3 - Generate the loop in row OK
 """
 
 
