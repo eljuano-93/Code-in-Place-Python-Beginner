@@ -56,7 +56,7 @@ def get_association(animal, is_phase_1):
 
 
 def run_single_test(is_phase_1):
-    # print one colored word, match depending on is_phase_1 parameter
+    # print the animal name, match with the association depending on is_phase_1 parameter
     animal_name = random_animal()
     association = get_association(animal_name, is_phase_1)
     print(animal_name)
